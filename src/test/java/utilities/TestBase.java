@@ -11,6 +11,7 @@ import java.time.Duration;
 public abstract class TestBase {
     // abstract yapmamızın sebebi, bu class'dan obje uretilmesinin onune gecmektir.
     protected WebDriver driver;
+
     @BeforeMethod(groups = "grup1")
     public void setUp(){
         WebDriverManager.chromedriver().setup();

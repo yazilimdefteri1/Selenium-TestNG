@@ -31,7 +31,9 @@ public class Driver {
     private Driver(){
 
     }
+
         static WebDriver driver;
+
     public static WebDriver getDriver(){
 
     if (driver==null) {
